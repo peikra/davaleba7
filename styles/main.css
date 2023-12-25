@@ -1,0 +1,194 @@
+header {
+    height: 80px;
+    
+    
+    
+}
+
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1272px;
+    margin: 0 auto;
+    margin-top: 27px;
+    background-color: white;
+    position: fixed;
+    left: 70px;
+    
+}
+
+.navigation{
+    
+    display: contents;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 48px;
+}
+
+.login{
+    margin-left: 400px;
+    width: 60px;
+    height: 24px;
+    color: #556987;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.signup{
+    background-color: #22C55E;
+    border-radius: 6px;
+    color: white;
+    width: 86px;
+    height: 36px;
+    border: white;
+    cursor: pointer;
+
+}
+
+.navigation img{
+    margin-left: 200px;
+}
+
+.team{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.teambutton{
+    border-radius: 36px;
+    width: 49px;
+    height: 22px;
+    border: white;
+    color: #22C55E;
+}
+
+.team h1{
+    width: 359px;
+    height: 60px;
+    color: #2A3342;
+    
+font-family: Poppins;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: -0.02em;
+margin-top: 15px;
+}
+.team p{
+    width: 370px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 15px;
+    
+}
+.buttons{
+    margin-top: 70px;
+}
+
+.hiring{
+    background-color: #22C55E;
+    width: 177px;
+    height: 56px;
+    color: white;
+    border: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.culture{
+    width: 161px;
+    height: 56px;
+    background-color: #D5DAE1;
+    border-radius: 6px;
+    border: #D5DAE1;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 40px;
+
+}
+
+.grid_item1{
+    grid-area: item1;
+    width: 749px;
+    height: 801px;
+}
+.grid_item2{
+    grid-area: item2;
+    width: 359px;
+    height: 384px;
+}
+.grid_item3{
+    grid-area: item3;
+    width: 359px;
+    height: 384px;
+}
+.grid_item4{
+    grid-area: item4;
+    width: 359px;
+    height: 384px;
+}
+.grid_item5{
+    grid-area: item5;
+    width: 749px;
+    height: 801px;
+    
+}
+.grid_item6{
+    grid-area: item6;
+    width: 359px;
+    height: 384px;
+    
+}
+
+
+
+.grid1{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas: 
+    "item1  item2"
+    "item1  item3"
+    ;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 50px;
+    
+}
+
+
+.grid2{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas: 
+    "item4  item5"
+    "item6  item5"
+    ;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 20px;
+
+}
